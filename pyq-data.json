@@ -1,0 +1,23 @@
+{
+  "level1": [
+    {
+      "question": "What is the IUPAC name of CH3–CH2–OH?",
+      "options": ["Ethanol", "Methanol", "Propanol", "Ethanal"],
+      "answer": "Ethanol"
+    },
+    {
+      "question": "Which is a nucleophile?",
+      "options": ["H+", "Cl-", "NO2+", "AlCl3"],
+      "answer": "Cl-"
+    }
+  ],
+  "level2": [
+    {
+      "question": "Predict the major product of the reaction: CH3CH=CH2 + HBr",
+      "options": ["CH3CHBrCH3", "CH2BrCH2CH3", "CH3CH2CH2Br", "No Reaction"],
+      "answer": "CH3CHBrCH3"
+    }
+  ],
+  "level3": [/* More complex reactions */],
+  "level4": [/* HOTS/Assertion-Reason */]
+}
