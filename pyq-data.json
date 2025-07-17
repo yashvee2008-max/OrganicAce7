@@ -6,18 +6,42 @@
       "answer": "Ethanol"
     },
     {
-      "question": "Which is a nucleophile?",
-      "options": ["H+", "Cl-", "NO2+", "AlCl3"],
-      "answer": "Cl-"
+      "question": "Which of the following is an electrophile?",
+      "options": ["Cl-", "NH3", "AlCl3", "OH-"],
+      "answer": "AlCl3"
     }
   ],
   "level2": [
     {
-      "question": "Predict the major product of the reaction: CH3CH=CH2 + HBr",
-      "options": ["CH3CHBrCH3", "CH2BrCH2CH3", "CH3CH2CH2Br", "No Reaction"],
+      "question": "Predict the major product of CH3CH=CH2 + HBr (no peroxide).",
+      "options": ["CH3CHBrCH3", "CH3CH2CH2Br", "CH2BrCH2CH3", "CH3CH2BrCH3"],
       "answer": "CH3CHBrCH3"
+    },
+    {
+      "question": "Which of the following undergoes SN1 reaction most easily?",
+      "options": ["CH3Cl", "C6H5CH2Cl", "CH3CH2Cl", "CH2=CHCH2Cl"],
+      "answer": "C6H5CH2Cl"
     }
   ],
-  "level3": [/* More complex reactions */],
-  "level4": [/* HOTS/Assertion-Reason */]
+  "level3": [
+    {
+      "question": "What is the product of the reaction: CH3COCl + LiAlH4?",
+      "options": ["CH3COOH", "CH3CH2OH", "CH3OH", "CH3CHO"],
+      "answer": "CH3CH2OH"
+    }
+  ],
+  "level4": [
+    {
+      "question": "Assertion (A): Grignard reagents react with CO2 to form carboxylic acids. Reason (R): CO2 acts as a nucleophile.",
+      "options": [
+        "Both A and R are true and R is the correct explanation.",
+        "Both A and R are true but R is not the correct explanation.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "answer": "Both A and R are true but R is not the correct explanation."
+    }
+  ]
 }
+
+ 
