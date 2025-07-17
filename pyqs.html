@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OrganicAce – PYQs</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">OrganicAce</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="flashcards.html">Flashcards</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="tracker.html">Progress</a></li>
+      <li><a href="reactions.html">Reactions</a></li>
+      <li><a href="pyqs.html" class="active">PYQs</a></li>
+    </ul>
+  </nav>
+
+  <main style="max-width:800px; margin:40px auto; text-align:left;">
+    <h2>📘 Previous Year Questions (PYQs)</h2>
+
+    <p>Select a chapter and download practice PDFs:</p>
+
+    <select id="chapterSelect" onchange="filterPYQs()">
+      <option value="">-- Select Chapter --</option>
+      <option>Hydrocarbons</option>
+      <option>Alcohols, Phenols & Ethers</option>
+      <option>Aldehydes, Ketones & Carboxylic Acids</option>
+      <option>Haloalkanes & Haloarenes</option>
+      <!-- Add more chapters -->
+    </select>
+
+    <ul id="pyqList" class="pyq-list"></ul>
+  </main>
+
+  <script src="js/pyqs.js"></script>
+</body>
+</html>

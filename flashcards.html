@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>OrganicAce – Flashcards</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-brand">OrganicAce</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="flashcards.html" class="active">Flashcards</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="tracker.html">Progress</a></li>
+      <li><a href="reactions.html">Reactions</a></li>
+      <li><a href="pyqs.html">PYQs</a></li>
+    </ul>
+  </nav>
+
+  <main style="text-align: center; margin: 40px auto; max-width: 600px;">
+    <h2>🃏 Organic Flashcards</h2>
+
+    <div style="margin: 20px;">
+      <label><strong>Select Chapter:</strong></label>
+      <select id="chapterSelect" onchange="loadChapter(this.value)">
+        <option>Hydrocarbons</option>
+        <option>Alcohols, Phenols & Ethers</option>
+        <option>Aldehydes, Ketones & Carboxylic Acids</option>
+        <option>Haloalkanes & Haloarenes</option>
+        <option>Amines</option>
+        <option>Organic Compounds Containing Nitrogen</option>
+        <option>Biomolecules</option>
+        <option>Polymers</option>
+        <option>Chemistry in Everyday Life</option>
+        <option>Practical Organic Chemistry / Tests</option>
+      </select>
+    </div>
+
+    <div class="flashcard-wrapper">
+      <div class="flashcard-container" onclick="flipCard()">
+        <div class="flashcard" id="flashcard">
+          <div class="front" id="cardFront"></div>
+          <div class="back" id="cardBack"></div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button onclick="prevCard()">Previous</button>
+        <button onclick="nextCard()">Next</button>
+      </div>
+
+      <div class="card-number" id="cardCounter"></div>
+    </div>
+  </main>
+
+  <script src="js/flashcards.js"></script>
+</body>
+</html>
+
+

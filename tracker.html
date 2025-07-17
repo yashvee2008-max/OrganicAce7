@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OrganicAce - Progress Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">OrganicAce</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="flashcards.html">Flashcards</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="tracker.html">Progress</a></li>
+      <li><a href="reactions.html">Reactions</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>📊 Organic Chemistry Progress</h2>
+    <div id="progressBarContainer">
+      <div id="progressBar"></div>
+    </div>
+    <p id="percentage">0% Complete</p>
+
+    <ul style="max-width: 400px; margin: auto; text-align: left;">
+      <li><label><input type="checkbox" id="topic1" onchange="updateProgress()"> Basic Concepts</label></li>
+      <li><label><input type="checkbox" id="topic2" onchange="updateProgress()"> Hydrocarbons</label></li>
+      <li><label><input type="checkbox" id="topic3" onchange="updateProgress()"> Alcohols, Phenols & Ethers</label></li>
+      <li><label><input type="checkbox" id="topic4" onchange="updateProgress()"> Aldehydes & Ketones</label></li>
+      <li><label><input type="checkbox" id="topic5" onchange="updateProgress()"> Carboxylic Acids</label></li>
+      <li><label><input type="checkbox" id="topic6" onchange="updateProgress()"> Amines</label></li>
+      <li><label><input type="checkbox" id="topic7" onchange="updateProgress()"> Biomolecules</label></li>
+      <li><label><input type="checkbox" id="topic8" onchange="updateProgress()"> Polymers</label></li>
+      <li><label><input type="checkbox" id="topic9" onchange="updateProgress()"> Named Reactions</label></li>
+      <li><label><input type="checkbox" id="topic10" onchange="updateProgress()"> Assignments</label></li>
+    </ul>
+
+    <div class="controls">
+      <button onclick="resetProgress()">🔄 Reset Progress</button>
+    </div>
+  </main>
+
+  <script src="js/tracker.js"></script>
+</body>
+</html>

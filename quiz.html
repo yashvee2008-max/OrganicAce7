@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OrganicAce - Chapter Quizzes</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-brand">OrganicAce</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="flashcards.html">Flashcards</a></li>
+      <li><a href="quiz.html" class="active">Quiz</a></li>
+      <li><a href="tracker.html">Progress</a></li>
+      <li><a href="reactions.html">Reactions</a></li>
+      <li><a href="pyqs.html">PYQs</a></li>
+    </ul>
+  </nav>
+
+  <!-- Quiz Section -->
+  <main class="quiz-container">
+    <h2>🧠 Organic Quiz - <span id="chapterTitle">Hydrocarbons</span></h2>
+
+    <!-- Dropdown to select chapter -->
+    <div style="margin-bottom: 20px;">
+      <label for="chapterSelect"><strong>Select Chapter:</strong></label>
+      <select id="chapterSelect" onchange="switchChapter(this.value)">
+        <option value="Hydrocarbons">Hydrocarbons</option>
+        <option value="Alcohols, Phenols & Ethers">Alcohols, Phenols & Ethers</option>
+        <option value="Aldehydes, Ketones & Carboxylic Acids">Aldehydes, Ketones & Carboxylic Acids</option>
+        <option value="Haloalkanes & Haloarenes">Haloalkanes & Haloarenes</option>
+        <option value="Amines">Amines</option>
+        <option value="Organic Compounds Containing Nitrogen">Organic Compounds Containing Nitrogen</option>
+        <option value="Biomolecules">Biomolecules</option>
+        <option value="Polymers">Polymers</option>
+        <option value="Chemistry in Everyday Life">Chemistry in Everyday Life</option>
+        <option value="Practical Organic Chemistry / Tests">Practical Organic Chemistry / Tests</option>
+      </select>
+    </div>
+
+    <!-- Question & Options -->
+    <div id="questionBox" class="question-box">
+      <div id="questionText" class="question-text">Loading question...</div>
+      <div id="options" class="options-box"></div>
+    </div>
+
+    <!-- Next Button and Score -->
+    <button id="nextBtn" onclick="nextQuestion()">Next</button>
+    <div class="score-box">
+      Score: <span id="score">0</span> / <span id="total">0</span>
+    </div>
+  </main>
+
+  <!-- JS Script -->
+  <script src="quiz.js"></script>
+</body>
+</html>
