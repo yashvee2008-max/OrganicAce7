@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PYQs - OrganicAce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📘 PYQs – Level-wise Practice</h1>
+
+  <label for="level">Select Difficulty Level:</label>
+  <select id="level" onchange="loadQuestions()">
+    <option value="level1">Level 1 – Basic</option>
+    <option value="level2">Level 2 – Intermediate</option>
+    <option value="level3">Level 3 – Advanced</option>
+    <option value="level4">Level 4 – Expert</option>
+  </select>
+
+  <div id="questions-container"></div>
+
+  <script src="pyq.js"></script>
+</body>
+</html>
