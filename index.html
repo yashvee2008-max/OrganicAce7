@@ -1,62 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>OrganicAce - Master Organic Chemistry</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OrganicAce</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f9f1;
+      color: #333;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #2e7d32;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #2e7d32;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+
+    .button-container {
+      margin-top: 2rem;
+    }
+
+    .button-container a {
+      text-decoration: none;
+    }
+
+    .button-container button {
+      background-color: #66bb6a;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button-container button:hover {
+      background-color: #4caf50;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      background-color: #e8f5e9;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-brand">OrganicAce</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="flashcards.html">Flashcards</a></li>
-      <li><a href="quiz.html">Quiz</a></li>
-      <li><a href="tracker.html">Progress</a></li>
-      <li><a href="reactions.html">Reactions</a></li>
-      <li><a href="pyqs.html">PYQs</a></li>
-    </ul>
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="pyq.html">📘 PYQs</a>
+    <!-- You can add more links like flashcards.html, quiz.html here -->
   </nav>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <h1>Welcome to <span class="highlight">OrganicAce</span></h1>
-    <p class="tagline">“Don’t memorize. Understand. And you’ll never forget.”</p>
+  <header>
+    <h1>🌿 OrganicAce</h1>
+    <p>Your interactive platform to master Organic Chemistry for Classes 11 & 12</p>
+    <div class="button-container">
+      <a href="pyq.html"><button>📘 Practice PYQs</button></a>
+      <a href="#"><button>🧪 Flashcards (Coming Soon)</button></a>
+      <a href="#"><button>📝 Take Quizzes</button></a>
+    </div>
   </header>
 
-  <!-- Main Navigation Cards -->
-  <section class="home-sections">
-    <div class="card-grid">
-      <a href="flashcards.html" class="home-card">
-        <h2>🃏 Flashcards</h2>
-        <p>100+ flashcards organized chapter-wise.</p>
-      </a>
-
-      <a href="quiz.html" class="home-card">
-        <h2>🧠 Quizzes</h2>
-        <p>Practice 50+ questions per chapter — from basics to competitive level.</p>
-      </a>
-
-      <a href="reactions.html" class="home-card">
-        <h2>⚗️ Named Reactions</h2>
-        <p>Every reaction you need for Class 11 & 12, with examples and types.</p>
-      </a>
-
-      <a href="tracker.html" class="home-card">
-        <h2>📊 Progress Tracker</h2>
-        <p>Track chapters completed, score progress, and more.</p>
-      </a>
-
-      <a href="pyqs.html" class="home-card">
-        <h2>📘 PYQs</h2>
-        <p>Previous year questions organized chapter-wise & year-wise.</p>
-      </a>
-    </div>
-  </section>
+  <footer>
+    © 2025 OrganicAce | Created by Yashvee Sharma
+  </footer>
 
 </body>
 </html>
-
