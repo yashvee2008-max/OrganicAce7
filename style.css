@@ -508,21 +508,25 @@ select#chapterSelect:focus {
     min-width: 100%;
   }
 }
-nav {
-  background-color: #f0f5f3;
-  padding: 10px;
-  text-align: center;
+/* OrganicAce Navbar */
+.navbar {
+  background-color: #e8f5e9;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px solid #c3e6c3;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
 }
 
-nav a {
-  margin: 0 15px;
+.navbar a {
   text-decoration: none;
-  color: #2d4635;
-  font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  color: #2d4739;
+  font-weight: 600;
   transition: color 0.3s ease;
 }
 
-nav a:hover {
-  color: #008000;
+.navbar a:hover {
+  color: #219653;
 }
