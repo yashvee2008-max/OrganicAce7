@@ -1,5 +1,6 @@
-const hydrocarbonQuestions = [
-  {
+const quizData = {
+  "Hydrocarbons": [  
+    {
     question: "Which of the following has the highest percentage of s-character in its hybrid orbitals?",
     options: ["A) Ethane", "B) Ethene", "C) Ethyne", "D) Benzene"],
     answer: "C"
@@ -248,10 +249,9 @@ const hydrocarbonQuestions = [
     question: "Which reaction forms a substituted benzene ring via elimination-addition mechanism?",
     options: ["A) Friedel-Crafts alkylation", "B) Sandmeyer reaction", "C) Nucleophilic aromatic substitution", "D) Kolbe reaction"],
     answer: "C"
-  }
-];
-const alcoholPhenolEtherQuestions = [
-  {
+  } ],
+  "Alcohols, Phenols & Ethers": [
+    {
     question: "Which alcohol reacts fastest with Lucas reagent at room temperature?",
     options: ["1° alcohol", "2° alcohol", "3° alcohol", "Allyl alcohol"],
     answer: "3° alcohol"
@@ -556,9 +556,8 @@ const alcoholPhenolEtherQuestions = [
     ],
     answer: "1,3-Propanediol"
   }
-];
-const quizData = {
-  aldehydesKetonesCarboxylicAcids: [
+  ],
+  "aldehydesKetonesCarboxylicAcids": [
     {
       question: "Which reagent is used for the selective oxidation of aldehydes to carboxylic acids without affecting alcohols?",
       options: ["KMnO₄", "PCC", "Tollen’s reagent", "H₂CrO₄"],
@@ -815,8 +814,7 @@ const quizData = {
       answer: "Ketones undergo oxidation more easily than aldehydes"
     }
   ],
-};
-const haloalkanesHaloarenesQuestions = [
+  "haloalkanesHaloarenes" = [
   {
     question: "Which of the following undergoes SN1 reaction most readily?",
     options: ["CH₃Cl", "(CH₃)₂CHCl", "(CH₃)₃CCl", "C₂H₅Cl"],
@@ -906,12 +904,8 @@ const haloalkanesHaloarenesQuestions = [
     options: ["1-Bromobutane", "2-Bromobutane", "3-Bromobutane", "Butyl bromide"],
     answer: "2-Bromobutane"
   }
-];
-
-const quizData = {
-  // Other chapters...
-
-  "amines": [
+  ],
+   "amines": [
     {
       question: "Which of the following is the most basic in aqueous solution?",
       options: ["Aniline", "Methylamine", "Ammonia", "Dimethylamine"],
@@ -1165,10 +1159,8 @@ const quizData = {
       options: ["CH₃CH₂OH", "CH₃CH₂N₂⁺Cl⁻", "CH₃CH₂NO₂", "CH₃CH₃"],
       answer: "CH₃CH₂OH"
     }
-  ]
-};
-
-const nitrogenCompoundsQuestions = [
+  ],
+  "nitrogenCompounds" = [
   {
     question: "Reduction of nitrobenzene using Sn/HCl gives:",
     options: ["Benzene", "Aniline", "Nitroethane", "Phenol"],
@@ -1469,8 +1461,8 @@ const nitrogenCompoundsQuestions = [
     options: ["Aniline", "Methylamine", "Ammonia", "Ethylamine"],
     answer: "Aniline"
   }
-];
-const biomoleculesQuestions = [
+],
+  "biomolecules" = [
   {
     question: "Which of the following carbohydrates is a non-reducing sugar?",
     options: ["Maltose", "Lactose", "Glucose", "Sucrose"],
@@ -1776,8 +1768,8 @@ const biomoleculesQuestions = [
     ],
     answer: "Alpha carbon (adjacent to the carboxyl group)"
   }
-];
-const polymersQuestions = [
+],
+  "polymers" = [
   {
     question: "Which of the following polymers is prepared by condensation polymerization?",
     options: ["Teflon", "Polyvinyl chloride", "Nylon-6,6", "Polythene"],
@@ -2155,37 +2147,60 @@ const polymersQuestions = [
     ],
     answer: "Polytetrafluoroethylene (PTFE)"
   }
-];
+],
+};
 
-let currentChapter = "Hydrocarbons";
-let currentQuiz = quizzes[currentChapter];
-let currentIndex = 0;
+const urlParams = new URLSearchParams(window.location.search);
+const currentChapter = urlParams.get('chapter') || 'Hydrocarbons';
+const chapterTitle = document.getElementById("chapterTitle");
+if (chapterTitle) chapterTitle.textContent = currentChapter;
+
+const currentQuiz = quizData[currentChapter];
+let currentQuestionIndex = 0;
 let score = 0;
 
+const questionText = document.getElementById("questionText");
+const optionsBox = document.getElementById("options");
+const scoreSpan = document.getElementById("score");
+const totalSpan = document.getElementById("total");
+const nextBtn = document.getElementById("nextBtn");
+
 function loadQuestion() {
-  const q = currentQuiz[currentIndex];
-  document.getElementById("questionText").innerText = q.question;
-  document.getElementById("options").innerHTML = "";
+  const q = currentQuiz[currentQuestionIndex];
+  questionText.innerText = `Q${currentQuestionIndex + 1}. ${q.question}`;
+  optionsBox.innerHTML = "";
 
   q.options.forEach(option => {
     const btn = document.createElement("button");
-    btn.innerText = option;
-    btn.className = "option-btn";
-    btn.onclick = () => checkAnswer(option);
-    document.getElementById("options").appendChild(btn);
+    btn.textContent = option;
+    btn.classList.add("option-button");
+    btn.onclick = () => checkAnswer(btn, option, q.answer);
+    optionsBox.appendChild(btn);
   });
 
-  document.getElementById("total").innerText = currentQuiz.length;
-  document.getElementById("score").innerText = score;
+  totalSpan.innerText = currentQuiz.length;
 }
 
-function checkAnswer(selected) {
-  const correct = currentQuiz[currentIndex].answer;
+function checkAnswer(button, selected, correct) {
+  const buttons = document.querySelectorAll(".option-button");
+  buttons.forEach(btn => {
+    btn.disabled = true;
+    if (btn.textContent === correct) {
+      btn.style.backgroundColor = "green";
+    } else if (btn.textContent === selected) {
+      btn.style.backgroundColor = "red";
+    }
+  });
+
   if (selected === correct) {
     score++;
+    scoreSpan.innerText = score;
   }
-  currentIndex++;
-  if (currentIndex < currentQuiz.length) {
+}
+
+function nextQuestion() {
+  currentQuestionIndex++;
+  if (currentQuestionIndex < currentQuiz.length) {
     loadQuestion();
   } else {
     showFinalScore();
@@ -2193,28 +2208,15 @@ function checkAnswer(selected) {
 }
 
 function showFinalScore() {
-  document.getElementById("questionText").innerText = "🎉 Quiz Completed!";
-  document.getElementById("options").innerHTML = `<p>Your final score is ${score} out of ${currentQuiz.length}.</p>`;
-  document.getElementById("nextBtn").style.display = "none";
+  document.querySelector(".quiz-container").innerHTML = `
+    <h2>Quiz Completed!</h2>
+    <p>You scored ${score} out of ${currentQuiz.length}</p>
+    <a href="quiz.html">Retry</a> |
+    <a href="index.html">Back to Home</a>
+  `;
 }
-
-function nextQuestion() {
-  currentIndex++;
-  if (currentIndex < currentQuiz.length) {
-    loadQuestion();
-  } else {
-    showFinalScore();
-  }
-}
-
-function switchChapter(chapter) {
-  currentChapter = chapter;
-  currentQuiz = quizzes[chapter];
-  currentIndex = 0;
-  score = 0;
-  document.getElementById("chapterTitle").innerText = chapter;
+if (currentQuiz) {
   loadQuestion();
+} else {
+  questionText.innerText = "Chapter not found!";
 }
-
-window.onload = loadQuestion;
-
