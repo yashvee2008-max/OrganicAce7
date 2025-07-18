@@ -2154,6 +2154,19 @@ document.getElementById('chapter-select').addEventListener('change', function() 
     const selectedChapter = this.value;
     loadChapterQuestions(selectedChapter);
 });
+function loadQuestions(chapter) {
+  const chapterQuestions = questions[chapter];
+  if (!chapterQuestions) return;
+
+  const q = chapterQuestions[0]; // Just display the first question for now
+  document.querySelector(".question-text").textContent = q.question;
+  
+  const options = document.querySelectorAll(".option");
+  options.forEach((btn, i) => {
+    btn.textContent = q.options[i];
+  });
+}
+
 
 const urlParams = new URLSearchParams(window.location.search);
 const currentChapter = urlParams.get('chapter') || 'Hydrocarbons';
