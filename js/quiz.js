@@ -2150,93 +2150,65 @@ const quizData = {
 ],
 };
 
-document.getElementById('chapter-select').addEventListener('change', function() {
-    const selectedChapter = this.value;
-    loadChapterQuestions(selectedChapter);
-});
-function loadQuestions(chapter) {
-  const chapterQuestions = questions[chapter];
-  if (!chapterQuestions) return;
-
-  const q = chapterQuestions[0]; // Just display the first question for now
-  document.querySelector(".question-text").textContent = q.question;
-  
-  const options = document.querySelectorAll(".option");
-  options.forEach((btn, i) => {
-    btn.textContent = q.options[i];
-  });
-}
-
-
-const urlParams = new URLSearchParams(window.location.search);
-const currentChapter = urlParams.get('chapter') || 'Hydrocarbons';
-const chapterTitle = document.getElementById("chapterTitle");
-if (chapterTitle) chapterTitle.textContent = currentChapter;
-
-const currentQuiz = quizData[currentChapter];
+let currentChapter = "Hydrocarbons";
 let currentQuestionIndex = 0;
 let score = 0;
 
-const questionText = document.getElementById("questionText");
-const optionsBox = document.getElementById("options");
-const scoreSpan = document.getElementById("score");
-const totalSpan = document.getElementById("total");
-const nextBtn = document.getElementById("nextBtn");
+function switchChapter(chapter) {
+  currentChapter = chapter;
+  currentQuestionIndex = 0;
+  score = 0;
 
-function loadQuestion() {
-  const q = currentQuiz[currentQuestionIndex];
-  questionText.innerText = `Q${currentQuestionIndex + 1}. ${q.question}`;
-  optionsBox.innerHTML = "";
+  document.getElementById("chapterTitle").textContent = chapter;
+  document.getElementById("score").textContent = score;
+  document.getElementById("total").textContent = questions[chapter].length;
 
-  q.options.forEach(option => {
-    const btn = document.createElement("button");
-    btn.textContent = option;
-    btn.classList.add("option-button");
-    btn.onclick = () => checkAnswer(btn, option, q.answer);
-    optionsBox.appendChild(btn);
-  });
-
-  totalSpan.innerText = currentQuiz.length;
+  loadQuestion();
 }
 
-function checkAnswer(button, selected, correct) {
-  const buttons = document.querySelectorAll(".option-button");
-  buttons.forEach(btn => {
-    btn.disabled = true;
-    if (btn.textContent === correct) {
-      btn.style.backgroundColor = "green";
-    } else if (btn.textContent === selected) {
-      btn.style.backgroundColor = "red";
-    }
-  });
+function loadQuestion() {
+  const chapterQuestions = questions[currentChapter];
+  const currentQuestion = chapterQuestions[currentQuestionIndex];
 
-  if (selected === correct) {
+  document.getElementById("questionText").textContent = currentQuestion.question;
+
+  const optionsBox = document.getElementById("options");
+  optionsBox.innerHTML = "";
+
+  currentQuestion.options.forEach(option => {
+    const btn = document.createElement("button");
+    btn.className = "option-btn";
+    btn.textContent = option;
+    btn.onclick = () => checkAnswer(option);
+    optionsBox.appendChild(btn);
+  });
+}
+
+function checkAnswer(selectedOption) {
+  const chapterQuestions = questions[currentChapter];
+  const correctAnswer = chapterQuestions[currentQuestionIndex].answer;
+
+  if (selectedOption === correctAnswer) {
     score++;
-    scoreSpan.innerText = score;
+    document.getElementById("score").textContent = score;
   }
+
+  nextQuestion();
 }
 
 function nextQuestion() {
+  const chapterQuestions = questions[currentChapter];
+
   currentQuestionIndex++;
-  if (currentQuestionIndex < currentQuiz.length) {
+  if (currentQuestionIndex < chapterQuestions.length) {
     loadQuestion();
   } else {
-    showFinalScore();
+    document.getElementById("questionText").textContent = "Quiz Complete!";
+    document.getElementById("options").innerHTML = "";
   }
 }
 
-function showFinalScore() {
-  document.querySelector(".quiz-container").innerHTML = `
-    <h2>Quiz Completed!</h2>
-    <p>You scored ${score} out of ${currentQuiz.length}</p>
-    <a href="quiz.html">Retry</a> |
-    <a href="index.html">Back to Home</a>
-  `;
-}
-
-if (currentQuiz && currentQuiz.length > 0) {
-  loadQuestion();
-} else {
-  questionText.innerText = "No questions available for this chapter.";
-  nextBtn.style.display = "none";
-}
+// Load the first question on page load
+window.onload = () => {
+  switchChapter(currentChapter);
+};
