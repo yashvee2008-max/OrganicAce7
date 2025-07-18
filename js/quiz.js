@@ -2150,6 +2150,10 @@ const quizData = {
 ],
 };
 
+document.getElementById('chapter-select').addEventListener('change', function() {
+    const selectedChapter = this.value;
+    loadChapterQuestions(selectedChapter);
+});
 
 const urlParams = new URLSearchParams(window.location.search);
 const currentChapter = urlParams.get('chapter') || 'Hydrocarbons';
