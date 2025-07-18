@@ -557,7 +557,7 @@ const quizData = {
     answer: "1,3-Propanediol"
   }
   ],
-  "aldehydesKetonesCarboxylicAcids": [
+  "Aldehydes, Ketones & Carboxylic Acids": [
     {
       question: "Which reagent is used for the selective oxidation of aldehydes to carboxylic acids without affecting alcohols?",
       options: ["KMnO₄", "PCC", "Tollen’s reagent", "H₂CrO₄"],
@@ -814,7 +814,7 @@ const quizData = {
       answer: "Ketones undergo oxidation more easily than aldehydes"
     }
   ],
-  "haloalkanesHaloarenes" = [
+  "Haloalkanes & Haloarenes": [
   {
     question: "Which of the following undergoes SN1 reaction most readily?",
     options: ["CH₃Cl", "(CH₃)₂CHCl", "(CH₃)₃CCl", "C₂H₅Cl"],
@@ -1160,7 +1160,7 @@ const quizData = {
       answer: "CH₃CH₂OH"
     }
   ],
-  "nitrogenCompounds" = [
+  "Organic compounds conaining nitrogen": [
   {
     question: "Reduction of nitrobenzene using Sn/HCl gives:",
     options: ["Benzene", "Aniline", "Nitroethane", "Phenol"],
@@ -1462,7 +1462,7 @@ const quizData = {
     answer: "Aniline"
   }
 ],
-  "biomolecules" = [
+  "biomolecules": [
   {
     question: "Which of the following carbohydrates is a non-reducing sugar?",
     options: ["Maltose", "Lactose", "Glucose", "Sucrose"],
@@ -1769,7 +1769,7 @@ const quizData = {
     answer: "Alpha carbon (adjacent to the carboxyl group)"
   }
 ],
-  "polymers" = [
+  "polymers": [
   {
     question: "Which of the following polymers is prepared by condensation polymerization?",
     options: ["Teflon", "Polyvinyl chloride", "Nylon-6,6", "Polythene"],
