@@ -2,19 +2,18 @@ const quizData = {
   "Hydrocarbons": [
     {
       question: "Which of the following is an alkene?",
-      options: ["Ethane", "Ethene", "Ethyne", "Methane"],
-      answer: "Ethene"
+      options: ["Ethane", "Propene", "Butane", "Methane"],
+      answer: "Propene"
     },
     {
-      question: "What is the general formula of alkanes?",
-      options: ["CnH2n+2", "CnH2n", "CnH2n-2", "CnH2n+1"],
+      question: "What is the general formula for alkanes?",
+      options: ["CnH2n", "CnH2n+2", "CnH2n-2", "CnH2n+1"],
       answer: "CnH2n+2"
     }
   ],
   "Biomolecules": [],
   "Polymers": []
 };
-
 
 const urlParams = new URLSearchParams(window.location.search);
 const currentChapter = urlParams.get('chapter') || 'Hydrocarbons';
@@ -81,8 +80,10 @@ function showFinalScore() {
     <a href="index.html">Back to Home</a>
   `;
 }
-if (currentQuiz) {
+
+if (currentQuiz && currentQuiz.length > 0) {
   loadQuestion();
 } else {
-  questionText.innerText = "Chapter not found!";
+  questionText.innerText = "No questions available for this chapter.";
+  nextBtn.style.display = "none";
 }
