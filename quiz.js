@@ -2160,13 +2160,13 @@ function switchChapter(chapter) {
 
   document.getElementById("chapterTitle").textContent = chapter;
   document.getElementById("score").textContent = score;
-  document.getElementById("total").textContent = questions[chapter].length;
+  document.getElementById("total").textContent = quizData[chapter].length;
 
   loadQuestion();
 }
 
 function loadQuestion() {
-  const chapterQuestions = questions[currentChapter];
+  const chapterQuestions = quizData[currentChapter];
   const currentQuestion = chapterQuestions[currentQuestionIndex];
 
   document.getElementById("questionText").textContent = currentQuestion.question;
@@ -2184,7 +2184,7 @@ function loadQuestion() {
 }
 
 function checkAnswer(selectedOption) {
-  const chapterQuestions = questions[currentChapter];
+  const chapterQuestions = quizData[currentChapter];
   const correctAnswer = chapterQuestions[currentQuestionIndex].answer;
 
   if (selectedOption === correctAnswer) {
@@ -2196,7 +2196,7 @@ function checkAnswer(selectedOption) {
 }
 
 function nextQuestion() {
-  const chapterQuestions = questions[currentChapter];
+  const chapterQuestions = quizData[currentChapter];
 
   currentQuestionIndex++;
   if (currentQuestionIndex < chapterQuestions.length) {
