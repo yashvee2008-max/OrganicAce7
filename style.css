@@ -508,3 +508,21 @@ select#chapterSelect:focus {
     min-width: 100%;
   }
 }
+nav {
+  background-color: #f0f5f3;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #2d4635;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #008000;
+}
