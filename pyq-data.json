@@ -9,6 +9,211 @@
       "question": "Which of the following is an electrophile?",
       "options": ["Cl-", "NH3", "AlCl3", "OH-"],
       "answer": "AlCl3"
+    },
+    {
+      "question": "What is the IUPAC name of CH3–CH2–CH3?",
+      "options": ["Methane", "Ethane", "Propane", "Butane"],
+      "answer": "Propane"
+    },
+    {
+      "question": "Which of the following is the correct IUPAC name for CH3–CH(CH3)–CH2–CH3?",
+      "options": ["2-Methylbutane", "Isobutane", "Pentane", "3-Methylbutane"],
+      "answer": "2-Methylbutane"
+    },
+    {
+      "question": "The IUPAC name of CH3–CH2–OH is:",
+      "options": ["Methanol", "Ethanol", "Propanol", "Ethanal"],
+      "answer": "Ethanol"
+    },
+    {
+      "question": "Which of the following compounds is named incorrectly?",
+      "options": ["2-Methylpropane", "3-Methylbutane", "2,2-Dimethylpropane", "1,2-Dibromoethane"],
+      "answer": "3-Methylbutane"
+    },
+    {
+      "question": "Which of the following is a structural isomer of butane?",
+      "options": ["Propane", "2-Methylpropane", "Ethane", "Pentane"],
+      "answer": "2-Methylpropane"
+    },
+    {
+      "question": "Geometrical isomerism is shown by which compound?",
+      "options": ["But-2-ene", "Butane", "Propane", "Methane"],
+      "answer": "But-2-ene"
+    },
+    {
+      "question": "Which of the following does not show isomerism?",
+      "options": ["Butane", "Ethane", "Pentane", "But-2-ene"],
+      "answer": "Ethane"
+    },
+    {
+      "question": "Which of the following effects involves delocalization of π-electrons?",
+      "options": ["Inductive effect", "Resonance effect", "Electromeric effect", "Hyperconjugation"],
+      "answer": "Resonance effect"
+    },
+    {
+      "question": "What is the order of –I (inductive withdrawing) effect among the following groups?",
+      "options": ["–NO2 > –Cl > –CH3", "–CH3 > –Cl > –NO2", "–Cl > –CH3 > –NO2", "–Cl > –NO2 > –CH3"],
+      "answer": "–NO2 > –Cl > –CH3"
+    },
+    {
+      "question": "Hyperconjugation involves the delocalization of electrons from:",
+      "options": ["π-orbitals", "σ-bonds adjacent to π-bonds", "Non-bonding orbitals", "Lone pairs"],
+      "answer": "σ-bonds adjacent to π-bonds"
+    },
+    {
+      "question": "Which of the following is most likely to undergo an SN1 reaction?",
+      "options": ["Methyl chloride", "Ethyl chloride", "Tertiary butyl chloride", "Primary butyl chloride"],
+      "answer": "Tertiary butyl chloride"
+    },
+    {
+      "question": "Which type of reaction does ethene typically undergo?",
+      "options": ["Addition", "Elimination", "Substitution", "Rearrangement"],
+      "answer": "Addition"
+    },
+    {
+      "question": "In nucleophilic substitution, which species attacks the substrate?",
+      "options": ["Electrophile", "Carbocation", "Nucleophile", "Radical"],
+      "answer": "Nucleophile"
+    },
+    {
+      "question": "Which of the following is a nucleophile?",
+      "options": ["H⁺", "Cl⁻", "NO2⁺", "SO3"],
+      "answer": "Cl⁻"
+    },
+    {
+      "question": "Which of the following acts as an electrophile in Friedel–Crafts reaction?",
+      "options": ["AlCl3", "Cl⁻", "HCl", "CH3⁺"],
+      "answer": "CH3⁺"
+    },
+    {
+      "question": "Which one of the following can act as both nucleophile and electrophile depending on the reaction?",
+      "options": ["H2O", "CH4", "NH3", "HCl"],
+      "answer": "H2O"
+    },
+    {
+      "question": "What is the IUPAC name of CH3–CH2–CH=CH2?",
+      "options": ["Butene", "1-Butene", "2-Butene", "Butane"],
+      "answer": "1-Butene"
+    },
+    {
+      "question": "What is the IUPAC name of the compound with formula CH3–CH(OH)–CH3?",
+      "options": ["Propanol", "2-Propanol", "1-Propanol", "Methanol"],
+      "answer": "2-Propanol"
+    },
+    {
+      "question": "Which of the following represents a ketone group in a compound?",
+      "options": ["–OH", "–CHO", "–CO–", "–COOH"],
+      "answer": "–CO–"
+    },
+    {
+      "question": "The longest carbon chain in CH3–CH2–CH(CH3)–CH2–CH3 has how many carbon atoms?",
+      "options": ["4", "5", "6", "3"],
+      "answer": "5"
+    },
+    {
+      "question": "Which compound is correctly named according to IUPAC?",
+      "options": ["2-Ethylbutane", "3-Ethylpentane", "1-Methylbutane", "3,3-Dimethylhexane"],
+      "answer": "3,3-Dimethylhexane"
+    },
+    {
+      "question": "Which of the following pairs are functional isomers?",
+      "options": ["Alcohol and Ether", "Alkene and Alkyne", "Aldehyde and Ketone", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "How many isomers does C4H10 have?",
+      "options": ["1", "2", "3", "4"],
+      "answer": "2"
+    },
+    {
+     "question": "Which compound can exist as optical isomers?",
+     "options": ["2-Butanol", "Methanol", "Ethane", "Butanal"],
+     "answer": "2-Butanol"
+    },
+    {
+     "question": "Which type of isomerism is shown by cis-2-butene and trans-2-butene?",
+     "options": ["Functional", "Structural", "Geometrical", "Optical"],
+     "answer": "Geometrical"
+    },
+    {
+     "question": "Which is a chain isomer of pentane?",
+     "options": ["Cyclopentane", "Isopentane", "2-Pentanol", "Butane"],
+     "answer": "Isopentane"
+    },
+    {
+     "question": "Which effect stabilizes a carbocation intermediate?",
+     "options": ["Inductive effect", "Resonance effect", "Hyperconjugation", "Electromeric effect"],
+     "answer": "Hyperconjugation"
+    },
+    {
+     "question": "Which group shows a +I effect?",
+     "options": ["–NO2", "–OH", "–CH3", "–COOH"],
+     "answer": "–CH3"
+    },
+    {
+     "question": "The resonance effect involves delocalization of:",
+     "options": ["σ-electrons", "π-electrons", "Lone pairs only", "Protons"],
+     "answer": "π-electrons"
+    },
+    {
+     "question": "Which effect is temporary and occurs only in presence of reagent?",
+     "options": ["Resonance", "Inductive", "Electromeric", "Hyperconjugation"],
+     "answer": "Electromeric"
+    },
+    {
+     "question": "Which of the following stabilizes a carbanion?",
+     "options": ["+I group", "–I group", "Resonance-donating group", "None"],
+     "answer": "–I group"
+    },
+    { 
+     "question": "SN1 reactions proceed via formation of a:",
+     "options": ["Free radical", "Carbanion", "Carbocation", "Transition state"],
+     "answer": "Carbocation"
+    },
+    {
+     "question": "Which reaction is unimolecular in its rate-determining step?",
+     "options": ["SN1", "SN2", "E2", "Addition"],
+     "answer": "SN1"
+    },
+    {
+     "question": "Which of the following is true about SN2 reactions?",
+     "options": ["Rate depends only on substrate", "Rate depends on both substrate and nucleophile", "Involves carbocation", "Has two steps"],
+     "answer": "Rate depends on both substrate and nucleophile"
+    },
+    {
+     "question": "In E2 reaction, the elimination occurs:",
+     "options": ["Via a carbocation", "In one concerted step", "In two steps", "Via carbanion"],
+     "answer": "In one concerted step"
+    },
+    {
+     "question": "Which intermediate is formed in a rearrangement reaction?",
+     "options": ["Carbocation", "Carbanion", "Radical", "Transition complex"],
+     "answer": "Carbocation"
+    },
+    {
+     "question": "Which of the following is a good nucleophile?",
+     "options": ["BF3", "NO2⁺", "OH⁻", "H⁺"],
+     "answer": "OH⁻"
+    },
+    {
+     "question": "Electrophiles are generally:",
+     "options": ["Electron-rich", "Electron-deficient", "Neutral", "Always anions"],
+     "answer": "Electron-deficient"
+    },
+    {
+     "question": "Which of the following acts as an electrophile in nitration of benzene?",
+     "options": ["NO3⁻", "HNO3", "NO2⁺", "H2SO4"],
+     "answer": "NO2⁺"
+    },
+    {
+     "question": "What kind of reagent is NH3 in substitution reactions?",
+     "options": ["Electrophile", "Radical", "Nucleophile", "Initiator"],
+     "answer": "Nucleophile"
+    },
+    {
+     "question": "Which one is both nucleophilic and basic in nature?",
+     "options": ["OH⁻", "NO3⁻", "Cl⁻", "H2O"],
+     "answer": "OH⁻"
     }
   ],
   "level2": [
