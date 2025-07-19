@@ -17,10 +17,6 @@
 
 ---
 
-### 👩‍🎓 Built by  
-**Yashvee Sharma**  
-Design & Dev | Chemistry Enthusiast
-
 ---
 
 ### 🤝 Contributions  
