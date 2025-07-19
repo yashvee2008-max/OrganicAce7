@@ -1,61 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>OrganicAce - Master Organic Chemistry</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <h1>Loading OrganicAce...</h1>
+  </div>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-brand">OrganicAce</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="flashcards.html">Flashcards</a></li>
-      <li><a href="quiz.html">Quiz</a></li>
-      <li><a href="tracker.html">Progress</a></li>
-      <li><a href="reactions.html">Reactions</a></li>
-      <li><a href="pyqs.html">PYQs</a></li>
-    </ul>
-  </nav>
+  <!-- Main Content -->
+  <div id="mainContent" style="display:none;">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-brand">OrganicAce</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="flashcards.html">Flashcards</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="tracker.html">Progress</a></li>
+        <li><a href="reactions.html">Reactions</a></li>
+        <li><a href="pyqs.html">Practice PYQs</a></li>
+      </ul>
+    </nav>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <h1>Welcome to <span class="highlight">OrganicAce</span></h1>
-    <p class="tagline">“Don’t memorize. Understand. And you’ll never forget.”</p>
-  </header>
+    <!-- Hero Section -->
+    <header class="hero">
+      <h1>Welcome to <span class="highlight">OrganicAce</span></h1>
+      <p class="tagline">“Don’t memorize. Understand. And you’ll never forget.”</p>
+    </header>
 
-  <!-- Main Navigation Cards -->
-  <section class="home-sections">
-    <div class="card-grid">
-      <a href="flashcards.html" class="home-card">
-        <h2>🃏 Flashcards</h2>
-        <p>100+ flashcards organized chapter-wise.</p>
-      </a>
+    <!-- Navigation Cards -->
+    <section class="home-sections">
+      <div class="card-grid">
+        <a href="flashcards.html" class="home-card">
+          <h2>🃏 Flashcards</h2>
+          <p>100+ flashcards organized chapter-wise.</p>
+        </a>
+        <a href="quiz.html" class="home-card">
+          <h2>🧠 Quizzes</h2>
+          <p>Practice 50+ questions per chapter — from basics to competitive levels.</p>
+        </a>
+        <a href="reactions.html" class="home-card">
+          <h2>⚗️ Named Reactions</h2>
+          <p>All important Class 11 & 12 reactions with examples.</p>
+        </a>
+        <a href="tracker.html" class="home-card">
+          <h2>📊 Progress Tracker</h2>
+          <p>Track your quizzes, flashcards, and PYQ progress.</p>
+        </a>
+        <a href="pyqs.html" class="home-card">
+          <h2>📘 Practice PYQs</h2>
+          <p>Download previous year questions chapter-wise.</p>
+        </a>
+      </div>
+    </section>
+  </div>
 
-      <a href="quiz.html" class="home-card">
-        <h2>🧠 Quizzes</h2>
-        <p>Practice 50+ questions per chapter — from basics to competitive level.</p>
-      </a>
-
-      <a href="reactions.html" class="home-card">
-        <h2>⚗️ Named Reactions</h2>
-        <p>Every reaction you need for Class 11 & 12, with examples and types.</p>
-      </a>
-
-      <a href="tracker.html" class="home-card">
-        <h2>📊 Progress Tracker</h2>
-        <p>Track chapters completed, score progress, and more.</p>
-      </a>
-
-      <a href="pyqs.html" class="home-card">
-        <h2>📘 PYQs</h2>
-        <p>Previous year questions organized chapter-wise & year-wise.</p>
-      </a>
-    </div>
-  </section>
-
+  <!-- Preloader Script -->
+  <script>
+    window.addEventListener("load", function () {
+      setTimeout(() => {
+        document.getElementById("preloader").style.display = "none";
+        document.getElementById("mainContent").style.display = "block";
+      }, 1200);
+    });
+  </script>
 </body>
 </html>
