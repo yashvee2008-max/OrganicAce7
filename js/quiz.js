@@ -1159,7 +1159,7 @@ const quizData = {
       options: ["CH₃CH₂OH", "CH₃CH₂N₂⁺Cl⁻", "CH₃CH₂NO₂", "CH₃CH₃"],
       answer: "CH₃CH₂OH"
     }
-  ],
+],
   "Organic compounds containing nitrogen": [
   {
     question: "Reduction of nitrobenzene using Sn/HCl gives:",
