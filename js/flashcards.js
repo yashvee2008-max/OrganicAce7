@@ -53,7 +53,7 @@ const flashcardsByChapter = {
     { front: "What are aromatic hydrocarbons?", back: "Cyclic compounds with delocalized π electrons (Hückel’s rule)" },
     { front: "Hybridization of carbon in benzene?", back: "sp²" },
     { front: "Bond order in benzene?", back: "1.5 (due to resonance)" }
-  ],,
+  ],
   "Alcohols, Phenols & Ethers": [
     { front: "Functional group of alcohols?", back: "–OH" },
     { front: "Phenol example: C6H5OH is …?", back: "Phenol" },
@@ -116,7 +116,7 @@ const flashcardsByChapter = {
     { front: "Hybridization of C in C–X bond of haloalkanes?", back: "sp³" },
     { front: "What is the role of Zn in haloalkane reduction?", back: "Provides electrons to reduce R–X to R–H" },
     { front: "How many products in SN1 on chiral carbon?", back: "Two (racemic mixture)" }
-  
+  ],
   "Aldehydes, Ketones & Carboxylic Acids": [
     { front: "Functional group of aldehydes?", back: "–CHO" },
     { front: "Functional group of ketones?", back: ">C=O" },
