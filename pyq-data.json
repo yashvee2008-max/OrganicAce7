@@ -214,7 +214,107 @@
      "question": "Which one is both nucleophilic and basic in nature?",
      "options": ["OH⁻", "NO3⁻", "Cl⁻", "H2O"],
      "answer": "OH⁻"
-    }
+    },
+    {
+    "question": "Which of the following is not a valid IUPAC name?",
+    "options": ["3-Ethylpentane", "2,2-Dimethylbutane", "3-Methylhexane", "2-Methyloctane"],
+    "answer": "2-Methyloctane"
+  },
+  {
+    "question": "The correct IUPAC name for CH3–CH2–COOH is:",
+    "options": ["Acetic acid", "Propanoic acid", "Butanoic acid", "Methanoic acid"],
+    "answer": "Propanoic acid"
+  },
+  {
+    "question": "Which of the following does not exhibit hyperconjugation?",
+    "options": ["Ethane", "Propene", "Toluene", "Isobutane"],
+    "answer": "Ethane"
+  },
+  {
+    "question": "The effect responsible for the color of conjugated compounds is:",
+    "options": ["Inductive effect", "Hyperconjugation", "Resonance", "Electromeric effect"],
+    "answer": "Resonance"
+  },
+  {
+    "question": "What type of reaction is involved in converting an alkyl halide to an alcohol?",
+    "options": ["Addition", "Substitution", "Elimination", "Oxidation"],
+    "answer": "Substitution"
+  },
+  {
+    "question": "Which of the following is most stable?",
+    "options": ["Primary carbocation", "Secondary carbocation", "Tertiary carbocation", "Methyl carbocation"],
+    "answer": "Tertiary carbocation"
+  },
+  {
+    "question": "Which is the nucleophile in the SN2 reaction of CH3Cl with OH⁻?",
+    "options": ["Cl⁻", "CH3⁺", "CH3Cl", "OH⁻"],
+    "answer": "OH⁻"
+  },
+  {
+    "question": "Which type of hybridization is present in the carbon atom of CH4?",
+    "options": ["sp", "sp2", "sp3", "sp3d"],
+    "answer": "sp3"
+  },
+  {
+    "question": "Which carbon compound contains a chiral center?",
+    "options": ["2-Butanol", "Methanol", "Ethene", "Acetone"],
+    "answer": "2-Butanol"
+  },
+  {
+    "question": "Which of the following shows both +I and +R effects?",
+    "options": ["–OH", "–NO2", "–Cl", "–CH3"],
+    "answer": "–OH"
+  },
+  {
+    "question": "Which group shows the strongest –I effect?",
+    "options": ["–CH3", "–OH", "–F", "–COOH"],
+    "answer": "–F"
+  },
+  {
+    "question": "What is the hybridization of the carbon in ethene?",
+    "options": ["sp", "sp2", "sp3", "sp3d"],
+    "answer": "sp2"
+  },
+  {
+    "question": "Which effect explains the acidity of carboxylic acids?",
+    "options": ["+R effect", "–I effect", "Hyperconjugation", "Electromeric effect"],
+    "answer": "–I effect"
+  },
+  {
+    "question": "Which of these species is an electrophile?",
+    "options": ["NH3", "H⁺", "OH⁻", "Cl⁻"],
+    "answer": "H⁺"
+  },
+  {
+    "question": "What is the leaving group in the hydrolysis of tert-butyl bromide?",
+    "options": ["OH⁻", "Br⁻", "H₂O", "tert-butyl cation"],
+    "answer": "Br⁻"
+  },
+  {
+    "question": "Which compound is most reactive in SN2 reactions?",
+    "options": ["Tertiary halide", "Secondary halide", "Primary halide", "Vinyl halide"],
+    "answer": "Primary halide"
+  },
+  {
+    "question": "In elimination reactions, what is typically removed?",
+    "options": ["H and OH", "H and Halogen", "C and H", "Two halogens"],
+    "answer": "H and Halogen"
+  },
+  {
+    "question": "Which of the following does NOT undergo nucleophilic substitution easily?",
+    "options": ["Allyl halide", "Vinyl halide", "Benzyl halide", "Alkyl halide"],
+    "answer": "Vinyl halide"
+  },
+  {
+    "question": "Which term best describes a molecule that donates a pair of electrons?",
+    "options": ["Electrophile", "Nucleophile", "Radical", "Cation"],
+    "answer": "Nucleophile"
+  },
+  {
+    "question": "Which reaction intermediate is involved in SN1 but not in SN2?",
+    "options": ["Free radical", "Carbocation", "Transition state", "Carbanion"],
+    "answer": "Carbocation"
+  }
   ],
   "level2": [
     {
@@ -226,16 +326,896 @@
       "question": "Which of the following undergoes SN1 reaction most easily?",
       "options": ["CH3Cl", "C6H5CH2Cl", "CH3CH2Cl", "CH2=CHCH2Cl"],
       "answer": "C6H5CH2Cl"
-    }
+    },
+  {
+    "question": "What is the IUPAC name of CH3–CH2–CH3?",
+    "options": ["Methane", "Ethane", "Propane", "Butane"],
+    "answer": "Propane"
+  },
+  {
+    "question": "Which of the following is the correct IUPAC name for CH3–CH(CH3)–CH2–CH3?",
+    "options": ["2-Methylbutane", "Isobutane", "Pentane", "3-Methylbutane"],
+    "answer": "2-Methylbutane"
+  },
+  {
+    "question": "The IUPAC name of CH3–CH2–OH is:",
+    "options": ["Methanol", "Ethanol", "Propanol", "Ethanal"],
+    "answer": "Ethanol"
+  },
+  {
+    "question": "Which of the following compounds is named incorrectly?",
+    "options": ["2-Methylpropane", "3-Methylbutane", "2,2-Dimethylpropane", "1,2-Dibromoethane"],
+    "answer": "3-Methylbutane"
+  },
+  {
+    "question": "Which of the following is a structural isomer of butane?",
+    "options": ["Propane", "2-Methylpropane", "Ethane", "Pentane"],
+    "answer": "2-Methylpropane"
+  },
+  {
+    "question": "Geometrical isomerism is shown by which compound?",
+    "options": ["But-2-ene", "Butane", "Propane", "Methane"],
+    "answer": "But-2-ene"
+  },
+  {
+    "question": "Which of the following does not show isomerism?",
+    "options": ["Butane", "Ethane", "Pentane", "But-2-ene"],
+    "answer": "Ethane"
+  },
+  {
+    "question": "Which of the following effects involves delocalization of π-electrons?",
+    "options": ["Inductive effect", "Resonance effect", "Electromeric effect", "Hyperconjugation"],
+    "answer": "Resonance effect"
+  },
+  {
+    "question": "What is the order of –I (inductive withdrawing) effect among the following groups?",
+    "options": ["–NO2 > –Cl > –CH3", "–CH3 > –Cl > –NO2", "–Cl > –CH3 > –NO2", "–Cl > –NO2 > –CH3"],
+    "answer": "–NO2 > –Cl > –CH3"
+  },
+  {
+    "question": "Hyperconjugation involves the delocalization of electrons from:",
+    "options": ["π-orbitals", "σ-bonds adjacent to π-bonds", "Non-bonding orbitals", "Lone pairs"],
+    "answer": "σ-bonds adjacent to π-bonds"
+  },
+  {
+    "question": "Which of the following is most likely to undergo an SN1 reaction?",
+    "options": ["Methyl chloride", "Ethyl chloride", "Tertiary butyl chloride", "Primary butyl chloride"],
+    "answer": "Tertiary butyl chloride"
+  },
+  {
+    "question": "Which type of reaction does ethene typically undergo?",
+    "options": ["Addition", "Elimination", "Substitution", "Rearrangement"],
+    "answer": "Addition"
+  },
+  {
+    "question": "In nucleophilic substitution, which species attacks the substrate?",
+    "options": ["Electrophile", "Carbocation", "Nucleophile", "Radical"],
+    "answer": "Nucleophile"
+  },
+  {
+    "question": "Which of the following is a nucleophile?",
+    "options": ["H⁺", "Cl⁻", "NO2⁺", "SO3"],
+    "answer": "Cl⁻"
+  },
+  {
+    "question": "Which of the following acts as an electrophile in Friedel–Crafts reaction?",
+    "options": ["AlCl3", "Cl⁻", "HCl", "CH3⁺"],
+    "answer": "CH3⁺"
+  },
+  {
+    "question": "Which one of the following can act as both nucleophile and electrophile depending on the reaction?",
+    "options": ["H2O", "CH4", "NH3", "HCl"],
+    "answer": "H2O"
+  },
+  {
+    "question": "What is the IUPAC name of CH3–CH2–CH=CH2?",
+    "options": ["Butene", "1-Butene", "2-Butene", "Butane"],
+    "answer": "1-Butene"
+  },
+  {
+    "question": "What is the IUPAC name of the compound with formula CH3–CH(OH)–CH3?",
+    "options": ["Propanol", "2-Propanol", "1-Propanol", "Methanol"],
+    "answer": "2-Propanol"
+  },
+  {
+    "question": "Which of the following represents a ketone group in a compound?",
+    "options": ["–OH", "–CHO", "–CO–", "–COOH"],
+    "answer": "–CO–"
+  },
+  {
+    "question": "The longest carbon chain in CH3–CH2–CH(CH3)–CH2–CH3 has how many carbon atoms?",
+    "options": ["4", "5", "6", "3"],
+    "answer": "5"
+  },
+  {
+    "question": "Which compound is correctly named according to IUPAC?",
+    "options": ["2-Ethylbutane", "3-Ethylpentane", "1-Methylbutane", "3,3-Dimethylhexane"],
+    "answer": "3,3-Dimethylhexane"
+  },
+  {
+    "question": "Which of the following pairs are functional isomers?",
+    "options": ["Alcohol and Ether", "Alkene and Alkyne", "Aldehyde and Ketone", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "How many isomers does C4H10 have?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "question": "Which compound can exist as optical isomers?",
+    "options": ["2-Butanol", "Methanol", "Ethane", "Butanal"],
+    "answer": "2-Butanol"
+  },
+  {
+    "question": "Which type of isomerism is shown by cis-2-butene and trans-2-butene?",
+    "options": ["Functional", "Structural", "Geometrical", "Optical"],
+    "answer": "Geometrical"
+  },
+  {
+    "question": "Which is a chain isomer of pentane?",
+    "options": ["Cyclopentane", "Isopentane", "2-Pentanol", "Butane"],
+    "answer": "Isopentane"
+  },
+  {
+    "question": "Which effect stabilizes a carbocation intermediate?",
+    "options": ["Inductive effect", "Resonance effect", "Hyperconjugation", "Electromeric effect"],
+    "answer": "Hyperconjugation"
+  },
+  {
+    "question": "Which group shows a +I effect?",
+    "options": ["–NO2", "–OH", "–CH3", "–COOH"],
+    "answer": "–CH3"
+  },
+  {
+    "question": "The resonance effect involves delocalization of:",
+    "options": ["σ-electrons", "π-electrons", "Lone pairs only", "Protons"],
+    "answer": "π-electrons"
+  },
+  {
+    "question": "Which effect is temporary and occurs only in presence of reagent?",
+    "options": ["Resonance", "Inductive", "Electromeric", "Hyperconjugation"],
+    "answer": "Electromeric"
+  },
+  {
+    "question": "Which of the following stabilizes a carbanion?",
+    "options": ["+I group", "–I group", "Resonance-donating group", "None"],
+    "answer": "–I group"
+  },
+  {
+    "question": "SN1 reactions proceed via formation of a:",
+    "options": ["Free radical", "Carbanion", "Carbocation", "Transition state"],
+    "answer": "Carbocation"
+  },
+  {
+    "question": "Which reaction is unimolecular in its rate-determining step?",
+    "options": ["SN1", "SN2", "E2", "Addition"],
+    "answer": "SN1"
+  },
+  {
+    "question": "Which of the following is true about SN2 reactions?",
+    "options": ["Rate depends only on substrate", "Rate depends on both substrate and nucleophile", "Involves carbocation", "Has two steps"],
+    "answer": "Rate depends on both substrate and nucleophile"
+  },
+  {
+    "question": "In E2 reaction, the elimination occurs:",
+    "options": ["Via a carbocation", "In one concerted step", "In two steps", "Via carbanion"],
+    "answer": "In one concerted step"
+  },
+    {
+    "question": "What is the major product formed when 2-butene reacts with Br2 in CCl4?",
+    "options": ["1,2-dibromobutane", "2,2-dibromobutane", "Butyne", "No reaction"],
+    "answer": "1,2-dibromobutane"
+  },
+  {
+    "question": "Which of the following will undergo Markovnikov addition with HBr?",
+    "options": ["Propene", "Ethene", "Butyne", "Cyclopentene"],
+    "answer": "Propene"
+  },
+  {
+    "question": "Which of the following undergoes electrophilic substitution most readily?",
+    "options": ["Benzene", "Nitrobenzene", "Toluene", "Chlorobenzene"],
+    "answer": "Toluene"
+  },
+  {
+    "question": "The product of the reaction of phenol with bromine water is:",
+    "options": ["o-bromophenol", "p-bromophenol", "2,4,6-tribromophenol", "bromobenzene"],
+    "answer": "2,4,6-tribromophenol"
+  },
+  {
+    "question": "What is the intermediate in the nitration of benzene?",
+    "options": ["Carbocation", "Nitronium ion", "Nitrate ion", "NO radical"],
+    "answer": "Nitronium ion"
+  },
+  {
+    "question": "Which is a correct statement about alkenes?",
+    "options": ["They are saturated hydrocarbons", "They undergo substitution reactions", "They are less reactive than alkanes", "They undergo electrophilic addition"],
+    "answer": "They undergo electrophilic addition"
+  },
+  {
+    "question": "Which of the following will undergo aldol condensation?",
+    "options": ["Acetaldehyde", "Formaldehyde", "Benzaldehyde", "Methanol"],
+    "answer": "Acetaldehyde"
+  },
+  {
+    "question": "What is the major product when ethanol is heated with conc. H2SO4 at 170°C?",
+    "options": ["Ethene", "Acetylene", "Diethyl ether", "Ethane"],
+    "answer": "Ethene"
+  },
+  {
+    "question": "In Friedel–Crafts alkylation, the electrophile is generated by:",
+    "options": ["HCl + AlCl3", "Alkyl halide + AlCl3", "Phenol + AlCl3", "H2 + AlCl3"],
+    "answer": "Alkyl halide + AlCl3"
+  },
+  {
+    "question": "Which will give a positive iodoform test?",
+    "options": ["Ethanol", "Methanol", "Propanol", "Methanal"],
+    "answer": "Ethanol"
+  },
+  {
+    "question": "Which of the following compounds shows tautomerism?",
+    "options": ["Ethanol", "Acetone", "Methane", "Ethanoic acid"],
+    "answer": "Acetone"
+  },
+  {
+    "question": "Which compound does not give Tollens’ test?",
+    "options": ["Acetaldehyde", "Formaldehyde", "Acetone", "Glucose"],
+    "answer": "Acetone"
+  },
+  {
+    "question": "Which compound is least acidic?",
+    "options": ["Phenol", "Ethanol", "Carboxylic acid", "Water"],
+    "answer": "Ethanol"
+  },
+  {
+    "question": "Which of the following is not an electrophilic substitution reaction?",
+    "options": ["Nitration of benzene", "Sulphonation of benzene", "Halogenation of benzene", "Hydrolysis of ester"],
+    "answer": "Hydrolysis of ester"
+  },
+  {
+    "question": "What is the product of oxidation of a secondary alcohol?",
+    "options": ["Aldehyde", "Ketone", "Carboxylic acid", "Ester"],
+    "answer": "Ketone"
+  },
+  {
+    "question": "Which of the following is most reactive towards nucleophilic substitution?",
+    "options": ["Benzyl chloride", "Chlorobenzene", "Vinyl chloride", "Tert-butyl chloride"],
+    "answer": "Benzyl chloride"
+  },
+  {
+    "question": "Which of the following is a condensation polymer?",
+    "options": ["Polythene", "PVC", "Nylon-6,6", "Teflon"],
+    "answer": "Nylon-6,6"
+  },
+  {
+    "question": "Which of the following vitamins is water-soluble?",
+    "options": ["Vitamin A", "Vitamin D", "Vitamin C", "Vitamin E"],
+    "answer": "Vitamin C"
+  },
+  {
+    "question": "Which monosaccharide is a ketose?",
+    "options": ["Glucose", "Fructose", "Ribose", "Galactose"],
+    "answer": "Fructose"
+  },
+  {
+    "question": "Which base is present only in RNA and not in DNA?",
+    "options": ["Adenine", "Thymine", "Uracil", "Guanine"],
+    "answer": "Uracil"
+  }
   ],
   "level3": [
     {
       "question": "What is the product of the reaction: CH3COCl + LiAlH4?",
       "options": ["CH3COOH", "CH3CH2OH", "CH3OH", "CH3CHO"],
       "answer": "CH3CH2OH"
-    }
+    },
+    {
+    "question": "What is the product of ozonolysis of 1-methylcyclohexene?",
+    "options": [
+      "Cyclohexanone and formaldehyde",
+      "Cyclohexanone and acetone",
+      "Adipic acid",
+      "1,6-Hexanedioic acid"
+    ],
+    "answer": "Cyclohexanone and formaldehyde"
+  },
+  {
+    "question": "Which compound will decarboxylate most easily upon heating?",
+    "options": [
+      "CH3CH2COOH",
+      "HOOC–CH2–COOH",
+      "C6H5COOH",
+      "CH3COOH"
+    ],
+    "answer": "HOOC–CH2–COOH"
+  },
+  {
+    "question": "Which compound gives a positive iodoform test?",
+    "options": [
+      "Methanol",
+      "Ethanol",
+      "Propan-1-ol",
+      "2-propanol"
+    ],
+    "answer": "2-propanol"
+  },
+  {
+    "question": "Which reagent converts benzaldehyde to benzoic acid?",
+    "options": [
+      "Tollens’ reagent",
+      "LiAlH4",
+      "H2/Ni",
+      "SOCl2"
+    ],
+    "answer": "Tollens’ reagent"
+  },
+  {
+    "question": "Which of the following is not a product of aldol condensation?",
+    "options": [
+      "α,β-Unsaturated aldehyde",
+      "β-Hydroxy ketone",
+      "Alcohol",
+      "Enone"
+    ],
+    "answer": "Alcohol"
+  },
+  {
+    "question": "In Kolbe’s reaction, phenol is converted into:",
+    "options": [
+      "Salicylic acid",
+      "Benzoic acid",
+      "Benzene",
+      "Anisole"
+    ],
+    "answer": "Salicylic acid"
+  },
+  {
+    "question": "Which of the following undergoes E2 elimination fastest?",
+    "options": [
+      "1-Bromobutane",
+      "2-Bromobutane",
+      "2-Bromo-2-methylpropane",
+      "3-Bromopentane"
+    ],
+    "answer": "2-Bromo-2-methylpropane"
+  },
+  {
+    "question": "Lucas test can differentiate alcohols based on:",
+    "options": [
+      "Oxidation ability",
+      "Reactivity with ZnCl2/HCl",
+      "Reactivity with PCC",
+      "Reaction with sodium metal"
+    ],
+    "answer": "Reactivity with ZnCl2/HCl"
+  },
+  {
+    "question": "Which product is formed when phenol reacts with HNO3 at room temperature?",
+    "options": [
+      "2-Nitrophenol",
+      "3-Nitrophenol",
+      "2,4-Dinitrophenol",
+      "Nitrobenzene"
+    ],
+    "answer": "2-Nitrophenol"
+  },
+  {
+    "question": "Which of the following compounds does NOT give a positive Fehling’s test?",
+    "options": [
+      "Formaldehyde",
+      "Acetaldehyde",
+      "Glucose",
+      "Acetone"
+    ],
+    "answer": "Acetone"
+  },
+  {
+    "question": "Which compound will undergo Cannizzaro reaction?",
+    "options": [
+      "Acetone",
+      "Benzaldehyde",
+      "Formic acid",
+      "Acetaldehyde"
+    ],
+    "answer": "Benzaldehyde"
+  },
+  {
+    "question": "Which is the major monomer used to make Terylene?",
+    "options": [
+      "Terephthalic acid and ethylene glycol",
+      "Adipic acid and hexamethylenediamine",
+      "Phenol and formaldehyde",
+      "Vinyl chloride"
+    ],
+    "answer": "Terephthalic acid and ethylene glycol"
+  },
+  {
+    "question": "Which of the following reactions does NOT involve a carbocation intermediate?",
+    "options": [
+      "SN1 reaction",
+      "E1 reaction",
+      "Hydrohalogenation of alkenes",
+      "SN2 reaction"
+    ],
+    "answer": "SN2 reaction"
+  },
+  {
+    "question": "Which among the following is least reactive in electrophilic aromatic substitution?",
+    "options": [
+      "Aniline",
+      "Toluene",
+      "Phenol",
+      "Nitrobenzene"
+    ],
+    "answer": "Nitrobenzene"
+  },
+  {
+    "question": "Which sugar is a non-reducing disaccharide?",
+    "options": [
+      "Maltose",
+      "Sucrose",
+      "Lactose",
+      "Glucose"
+    ],
+    "answer": "Sucrose"
+  },
+  {
+    "question": "What is the basic unit of proteins?",
+    "options": [
+      "Nucleotides",
+      "Amino acids",
+      "Fatty acids",
+      "Sugars"
+    ],
+    "answer": "Amino acids"
+  },
+  {
+    "question": "Which vitamin is synthesized by skin upon sunlight exposure?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "answer": "Vitamin D"
+  },
+  {
+    "question": "Which of the following polymers is formed via addition polymerization?",
+    "options": [
+      "Polyvinyl chloride",
+      "Terylene",
+      "Nylon-6,6",
+      "Bakelite"
+    ],
+    "answer": "Polyvinyl chloride"
+  },
+  {
+    "question": "Which of the following undergoes Hoffmann bromamide degradation?",
+    "options": [
+      "Urea",
+      "Acetamide",
+      "Ethanoic acid",
+      "Formaldehyde"
+    ],
+    "answer": "Acetamide"
+  },
+  {
+    "question": "Which compound gives an intense violet color with neutral FeCl3?",
+    "options": [
+      "Ethanol",
+      "Acetic acid",
+      "Phenol",
+      "Aniline"
+    ],
+    "answer": "Phenol"
+  },
+    {
+    "question": "Which of the following is used to distinguish between primary and tertiary alcohols?",
+    "options": ["Lucas test", "Tollens’ reagent", "Iodoform test", "Fehling’s solution"],
+    "answer": "Lucas test"
+  },
+  {
+    "question": "Which compound undergoes electrophilic substitution more readily than benzene?",
+    "options": ["Toluene", "Nitrobenzene", "Chlorobenzene", "Benzoic acid"],
+    "answer": "Toluene"
+  },
+  {
+    "question": "Which compound yields acetone upon dry distillation with soda lime?",
+    "options": ["Acetic acid", "Oxalic acid", "Acetoacetic acid", "Calcium acetate"],
+    "answer": "Calcium acetate"
+  },
+  {
+    "question": "Which of the following can undergo aldol condensation?",
+    "options": ["Formaldehyde", "Acetone", "Benzaldehyde", "Methanol"],
+    "answer": "Acetone"
+  },
+  {
+    "question": "Which of the following is used in making non-stick cookware?",
+    "options": ["PVC", "Teflon", "Polyester", "Polystyrene"],
+    "answer": "Teflon"
+  },
+  {
+    "question": "Which of the following is a reducing sugar?",
+    "options": ["Sucrose", "Glucose", "Starch", "Cellulose"],
+    "answer": "Glucose"
+  },
+  {
+    "question": "Which vitamin is fat-soluble?",
+    "options": ["Vitamin B1", "Vitamin C", "Vitamin K", "Vitamin B12"],
+    "answer": "Vitamin K"
+  },
+  {
+    "question": "Which of the following does not undergo Friedel–Crafts reaction?",
+    "options": ["Toluene", "Aniline", "Chlorobenzene", "Benzene"],
+    "answer": "Aniline"
+  },
+  {
+    "question": "Which of the following forms Bakelite polymer?",
+    "options": ["Phenol and methanal", "Urea and methanal", "Ethylene and glycol", "Adipic acid and hexamethylenediamine"],
+    "answer": "Phenol and methanal"
+  },
+  {
+    "question": "Which base is present only in DNA and not in RNA?",
+    "options": ["Uracil", "Cytosine", "Thymine", "Guanine"],
+    "answer": "Thymine"
+  },
+  {
+    "question": "Which polymer is formed by the polymerization of caprolactam?",
+    "options": ["Nylon-6", "Nylon-6,6", "Polyester", "Teflon"],
+    "answer": "Nylon-6"
+  },
+  {
+    "question": "What is the Zwitterionic form of an amino acid?",
+    "options": [
+      "A structure with both acidic and basic groups ionized",
+      "A neutral form",
+      "A fully protonated form",
+      "A negatively charged form"
+    ],
+    "answer": "A structure with both acidic and basic groups ionized"
+  },
+  {
+    "question": "Which carbohydrate yields only glucose upon hydrolysis?",
+    "options": ["Sucrose", "Lactose", "Maltose", "Starch"],
+    "answer": "Maltose"
+  },
+  {
+    "question": "Which among the following can exist as a meso compound?",
+    "options": ["2,3-dibromobutane", "2-butanol", "1,2-dichloroethane", "3-bromopentane"],
+    "answer": "2,3-dibromobutane"
+  },
+  {
+    "question": "Which condition favors the formation of conjugated enones in aldol condensation?",
+    "options": ["Heating after reaction", "Dilute NaOH at 0°C", "Reaction with alcohol", "Use of Grignard reagent"],
+    "answer": "Heating after reaction"
+  },
+  {
+    "question": "Which of the following is most acidic?",
+    "options": ["Phenol", "p-Nitrophenol", "Ethanol", "Aniline"],
+    "answer": "p-Nitrophenol"
+  },
+  {
+    "question": "Which monomer is used to form Bakelite?",
+    "options": ["Phenol", "Formaldehyde", "Both A and B", "Acetic acid"],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "Which of the following reactions involves a carbanion intermediate?",
+    "options": ["Aldol condensation", "Friedel–Crafts alkylation", "Nitration of benzene", "Hydrogenation"],
+    "answer": "Aldol condensation"
+  },
+  {
+    "question": "Which pair shows geometric isomerism?",
+    "options": ["But-2-ene", "Butane", "Ethene", "Propyne"],
+    "answer": "But-2-ene"
+  },
+  {
+    "question": "Which will give a white precipitate with AgNO3 in ethanol?",
+    "options": ["Benzyl chloride", "Vinyl chloride", "Chlorobenzene", "Methyl chloride"],
+    "answer": "Benzyl chloride"
+  },
+    {
+    "question": "Which of the following is an example of a primary alcohol?",
+    "options": ["Ethanol", "Isopropanol", "Tert-butanol", "Phenol"],
+    "answer": "Ethanol"
+  },
+  {
+    "question": "Which reagent is commonly used for the oxidation of primary alcohols to aldehydes?",
+    "options": ["PCC", "KMnO₄", "LiAlH₄", "NaBH₄"],
+    "answer": "PCC"
+  },
+  {
+    "question": "What type of isomerism is shown by but-1-ene and but-2-ene?",
+    "options": ["Chain isomerism", "Position isomerism", "Geometrical isomerism", "Functional group isomerism"],
+    "answer": "Position isomerism"
+  },
+  {
+    "question": "Which of the following halides is most reactive towards SN2 reaction?",
+    "options": ["CH₃Cl", "C₂H₅Cl", "(CH₃)₃CCl", "Benzyl chloride"],
+    "answer": "Benzyl chloride"
+  },
+  {
+    "question": "Which of the following compounds will not undergo nitration reaction easily?",
+    "options": ["Benzene", "Toluene", "Nitrobenzene", "Anisole"],
+    "answer": "Nitrobenzene"
+  },
+  {
+    "question": "The reaction of an alkene with Br₂ in CCl₄ is an example of:",
+    "options": ["Electrophilic addition", "Nucleophilic substitution", "Free radical substitution", "Elimination"],
+    "answer": "Electrophilic addition"
+  },
+  {
+    "question": "Which compound reacts with sodium metal to release hydrogen gas?",
+    "options": ["Alcohols", "Ethers", "Alkenes", "Alkanes"],
+    "answer": "Alcohols"
+  },
+  {
+    "question": "Which of the following is the IUPAC name of CH₃CH=CHCH₃?",
+    "options": ["1-Butene", "2-Butene", "But-1-ene", "But-2-ene"],
+    "answer": "But-2-ene"
+  },
+  {
+    "question": "What is the functional group in ketones?",
+    "options": ["-CHO", "-COOH", "-CO-", "-OH"],
+    "answer": "-CO-"
+  },
+  {
+    "question": "Which of the following is used as a solvent in Grignard reagent preparation?",
+    "options": ["Ether", "Water", "Alcohol", "Benzene"],
+    "answer": "Ether"
+  },
+  {
+    "question": "Which of the following is an aromatic compound?",
+    "options": ["Cyclobutane", "Benzene", "Cyclohexane", "Cyclopropane"],
+    "answer": "Benzene"
+  },
+  {
+    "question": "Which of the following compounds exhibits optical isomerism?",
+    "options": ["2-Butene", "Lactic acid", "Ethene", "1,2-Dichloroethane"],
+    "answer": "Lactic acid"
+  },
+  {
+    "question": "Which of the following undergoes oxidation to form carboxylic acid?",
+    "options": ["Primary alcohol", "Secondary alcohol", "Tertiary alcohol", "Ketones"],
+    "answer": "Primary alcohol"
+  },
+  {
+    "question": "Which reagent is used for converting an alkyl halide into an alkene by elimination?",
+    "options": ["KOH (alc)", "NaOH (aq)", "HBr", "H₂SO₄"],
+    "answer": "KOH (alc)"
+  },
+  {
+    "question": "Which of the following compounds is a saturated hydrocarbon?",
+    "options": ["Ethene", "Ethane", "Ethyne", "Benzene"],
+    "answer": "Ethane"
+  },
+  {
+    "question": "What type of hybridization is present in the carbon atom of benzene?",
+    "options": ["sp³", "sp²", "sp", "None of these"],
+    "answer": "sp²"
+  },
+  {
+    "question": "Which of the following gives a positive Tollen’s test?",
+    "options": ["Benzaldehyde", "Acetone", "Phenol", "Ethanol"],
+    "answer": "Benzaldehyde"
+  },
+  {
+    "question": "Which of the following is an example of an ether?",
+    "options": ["Ethoxyethane", "Ethanol", "Ethanoic acid", "Ethene"],
+    "answer": "Ethoxyethane"
+  },
+  {
+    "question": "Which of the following is formed when an aldehyde is oxidized?",
+    "options": ["Carboxylic acid", "Alcohol", "Ketone", "Alkane"],
+    "answer": "Carboxylic acid"
+  },
+  {
+    "question": "Which of the following undergoes nucleophilic addition reactions?",
+    "options": ["Alkene", "Aldehyde", "Alkyne", "Alkane"],
+    "answer": "Aldehyde"
+  }
   ],
   "level4": [
+    {
+        "question": "Which of the following reagents is used to distinguish between primary and tertiary alcohols?",
+        "options": ["Lucas test", "Tollens’ reagent", "Iodoform test", "Fehling’s solution"],
+        "answer": "Lucas test"
+    },
+    {
+        "question": "Which of the following carbanions is most stable?",
+        "options": ["CH₃⁻", "CH₂=CH⁻", "C₆H₅CH₂⁻", "C₆H₅⁻"],
+        "answer": "C₆H₅CH₂⁻"
+    },
+    {
+        "question": "Which of the following shows both geometrical and optical isomerism?",
+        "options": ["2,3-dichlorobutane", "1,2-dichloroethene", "But-2-ene", "Tartaric acid"],
+        "answer": "2,3-dichlorobutane"
+    },
+    {
+        "question": "Which test can distinguish ethene from ethyne?",
+        "options": ["Baeyer’s test", "Tollens’ test", "Lucas test", "Iodoform test"],
+        "answer": "Baeyer’s test"
+    },
+    {
+        "question": "Which of the following halides undergo SN1 reaction most readily?",
+        "options": ["CH₃Cl", "C₂H₅Cl", "(CH₃)₂CHCl", "(CH₃)₃CCl"],
+        "answer": "(CH₃)₃CCl"
+    },
+    {
+        "question": "Which of the following compounds reacts fastest with NaOH under high temperature and pressure?",
+        "options": ["Chlorobenzene", "2,4-Dinitrochlorobenzene", "Bromobenzene", "Toluene"],
+        "answer": "2,4-Dinitrochlorobenzene"
+    },
+    {
+        "question": "Which reaction involves nucleophilic substitution in haloarenes under drastic conditions?",
+        "options": ["Finkelstein reaction", "SN2 reaction", "Elimination", "Benzyne mechanism"],
+        "answer": "Benzyne mechanism"
+    },
+    {
+        "question": "Which of the following has the highest acidity?",
+        "options": ["Phenol", "Water", "Acetic acid", "Ethanol"],
+        "answer": "Acetic acid"
+    },
+    {
+        "question": "What is the product of Kolbe’s reaction when phenol is treated with NaOH and CO₂?",
+        "options": ["Benzoic acid", "Salicylic acid", "Phenyl acetate", "Anisole"],
+        "answer": "Salicylic acid"
+    },
+    {
+        "question": "Which of the following compounds gives a positive Tollen’s test?",
+        "options": ["Propanone", "Formaldehyde", "2-butanone", "Acetone"],
+        "answer": "Formaldehyde"
+    },
+    {
+    "question": "Which of the following alkenes gives a tertiary carbocation during acid-catalyzed hydration?",
+    "options": ["Propene", "1-butene", "2-methylpropene", "Ethene"],
+    "answer": "2-methylpropene"
+  },
+  {
+    "question": "Which of the following reagents is used in anti-Markovnikov addition to alkenes?",
+    "options": ["HBr + Peroxides", "HCl + UV light", "Br₂ in CCl₄", "Dilute H₂SO₄"],
+    "answer": "HBr + Peroxides"
+  },
+  {
+    "question": "Which compound does not undergo Friedel-Crafts alkylation?",
+    "options": ["Benzene", "Toluene", "Nitrobenzene", "Anisole"],
+    "answer": "Nitrobenzene"
+  },
+  {
+    "question": "Which of the following gives a white precipitate with ammoniacal AgNO₃?",
+    "options": ["Propyne", "2-butyne", "1-butyne", "2-methyl-2-butyne"],
+    "answer": "1-butyne"
+  },
+  {
+    "question": "Which mechanism explains the substitution in chlorobenzene with NaOH at 623 K and 300 atm?",
+    "options": ["SN1", "SN2", "Elimination", "Benzyne mechanism"],
+    "answer": "Benzyne mechanism"
+  },
+  {
+    "question": "Which of the following reacts with ethanolic KOH to give an alkyne?",
+    "options": ["1,2-dibromoethane", "Chloroethane", "Ethanol", "Bromoethene"],
+    "answer": "1,2-dibromoethane"
+  },
+  {
+    "question": "Which of the following compounds gives iodoform test?",
+    "options": ["Ethanol", "Propan-2-ol", "Butanone", "All of these"],
+    "answer": "All of these"
+  },
+  {
+    "question": "In SN2 reaction, which of the following affects the rate most significantly?",
+    "options": ["Steric hindrance", "Nature of solvent", "Carbocation stability", "Reaction temperature"],
+    "answer": "Steric hindrance"
+  },
+  {
+    "question": "Which halide is least reactive towards SN2 reaction?",
+    "options": ["CH₃Br", "(CH₃)₂CHBr", "(CH₃)₃CBr", "C₂H₅Br"],
+    "answer": "(CH₃)₃CBr"
+  },
+  {
+    "question": "What is the product of the reaction between benzene and acetyl chloride in the presence of AlCl₃?",
+    "options": ["Acetophenone", "Benzyl chloride", "Benzaldehyde", "Benzoic acid"],
+    "answer": "Acetophenone"
+  },
+  {
+    "question": "Which of the following is not a nucleophile?",
+    "options": ["NH₃", "Cl⁻", "H₂O", "BF₃"],
+    "answer": "BF₃"
+  },
+  {
+    "question": "Which alcohol undergoes dehydration most readily?",
+    "options": ["Ethanol", "Propan-1-ol", "2-methylpropan-2-ol", "Butan-2-ol"],
+    "answer": "2-methylpropan-2-ol"
+  },
+  {
+    "question": "Which reagent can be used to convert an alcohol into an aldehyde?",
+    "options": ["PCC", "NaBH₄", "LiAlH₄", "Conc. H₂SO₄"],
+    "answer": "PCC"
+  },
+  {
+    "question": "Which ether is formed by Williamson synthesis using sodium ethoxide and methyl iodide?",
+    "options": ["Diethyl ether", "Ethyl methyl ether", "Dimethyl ether", "Methoxybenzene"],
+    "answer": "Ethyl methyl ether"
+  },
+  {
+    "question": "Which of the following is a meso compound?",
+    "options": ["2,3-dibromobutane", "2,3-dichlorobutane", "Tartaric acid", "Maleic acid"],
+    "answer": "Tartaric acid"
+  },
+  {
+    "question": "Which alcohol gives a yellow precipitate with iodine and NaOH?",
+    "options": ["Propan-2-ol", "Butan-1-ol", "Ethanol", "Methanol"],
+    "answer": "Propan-2-ol"
+  },
+  {
+    "question": "Which is the strongest acid among the following?",
+    "options": ["Formic acid", "Acetic acid", "Trichloroacetic acid", "Benzoic acid"],
+    "answer": "Trichloroacetic acid"
+  },
+  {
+    "question": "Which of the following gives a positive Fehling’s test?",
+    "options": ["Acetaldehyde", "Benzaldehyde", "Formic acid", "Ketones"],
+    "answer": "Acetaldehyde"
+  },
+  {
+    "question": "Which of the following compounds undergoes aldol condensation?",
+    "options": ["Acetaldehyde", "Formaldehyde", "Benzaldehyde", "Methanol"],
+    "answer": "Acetaldehyde"
+  },
+  {
+    "question": "What is the product of Cannizzaro reaction of benzaldehyde?",
+    "options": ["Benzoic acid and benzyl alcohol", "Benzoic acid only", "Benzyl alcohol only", "Benzyl chloride"],
+    "answer": "Benzoic acid and benzyl alcohol"
+  },
+  {
+    "question": "Which of the following can be used to prepare acid chloride from carboxylic acid?",
+    "options": ["PCl₅", "NaOH", "KMnO₄", "NaBH₄"],
+    "answer": "PCl₅"
+  },
+  {
+    "question": "Which reaction converts an ester into an amide?",
+    "options": ["Aminolysis", "Hydrolysis", "Reduction", "Oxidation"],
+    "answer": "Aminolysis"
+  },
+  {
+    "question": "Which is the correct order of reactivity for nucleophilic acyl substitution?",
+    "options": ["Acid chloride > Anhydride > Ester > Amide", "Amide > Ester > Acid chloride > Anhydride", "Ester > Amide > Acid chloride > Anhydride", "Anhydride > Acid chloride > Ester > Amide"],
+    "answer": "Acid chloride > Anhydride > Ester > Amide"
+  },
+  {
+    "question": "What is the major product in the reaction of benzaldehyde with acetone in NaOH?",
+    "options": ["Crossed aldol product", "Cannizzaro product", "Benzoin", "Toluene"],
+    "answer": "Crossed aldol product"
+  },
+  {
+    "question": "Which of the following does not reduce Fehling’s solution?",
+    "options": ["Glucose", "Fructose", "Benzaldehyde", "Formaldehyde"],
+    "answer": "Benzaldehyde"
+  },
+  {
+    "question": "What is the first step in the mechanism of acid-catalyzed ester hydrolysis?",
+    "options": ["Protonation of the carbonyl oxygen", "Attack of nucleophile", "Deprotonation of alcohol", "Breakage of ester bond"],
+    "answer": "Protonation of the carbonyl oxygen"
+  },
+  {
+    "question": "Which of the following gives benzoic acid upon oxidation?",
+    "options": ["Toluene", "Benzyl alcohol", "Benzaldehyde", "All of these"],
+    "answer": "All of these"
+  },
+  {
+    "question": "Which of the following is not aromatic?",
+    "options": ["Pyridine", "Cyclobutadiene", "Benzene", "Furan"],
+    "answer": "Cyclobutadiene"
+  },
+  {
+    "question": "Which of the following is used in the preparation of aspirin?",
+    "options": ["Salicylic acid", "Phenol", "Benzoic acid", "Acetic acid"],
+    "answer": "Salicylic acid"
+  },
+  {
+    "question": "Which of the following has the highest boiling point?",
+    "options": ["Ethanol", "Dimethyl ether", "Acetone", "Methane"],
+    "answer": "Ethanol"
+  },
     {
       "question": "Assertion (A): Grignard reagents react with CO2 to form carboxylic acids. Reason (R): CO2 acts as a nucleophile.",
       "options": [
