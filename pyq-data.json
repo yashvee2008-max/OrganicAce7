@@ -1217,6 +1217,156 @@
     "answer": "Ethanol"
   },
     {
+    "question": "Which of the following compounds will undergo electrophilic aromatic substitution at the fastest rate?",
+    "options": ["Nitrobenzene", "Toluene", "Chlorobenzene", "Benzene"],
+    "answer": "Toluene"
+  },
+  {
+    "question": "In which of the following, the reaction proceeds via a benzyne intermediate?",
+    "options": ["Chlorobenzene + NaNH₂", "Benzyl chloride + NaOH", "Toluene + Br₂", "Phenol + NaOH"],
+    "answer": "Chlorobenzene + NaNH₂"
+  },
+  {
+    "question": "Which of the following carbenes is most stable?",
+    "options": ["Singlet methylene", "Triplet methylene", "Phenyl carbene", "Vinyl carbene"],
+    "answer": "Triplet methylene"
+  },
+  {
+    "question": "Which of the following is the major product when 2-methyl-2-butene is treated with HBr in the presence of peroxides?",
+    "options": ["2-bromo-2-methylbutane", "1-bromo-2-methylbutane", "3-bromo-2-methylbutane", "1-bromo-3-methylbutane"],
+    "answer": "1-bromo-2-methylbutane"
+  },
+  {
+    "question": "Which compound will undergo Diels-Alder reaction most rapidly?",
+    "options": ["1,3-butadiene", "Isoprene", "1,3-cyclohexadiene", "Benzene"],
+    "answer": "1,3-cyclohexadiene"
+  },
+  {
+    "question": "Which of the following has the highest nucleophilicity in SN2 reactions?",
+    "options": ["I⁻", "Br⁻", "Cl⁻", "F⁻"],
+    "answer": "I⁻"
+  },
+  {
+    "question": "Which of the following is the preferred conformation of cyclohexane in chair form?",
+    "options": ["All substituents equatorial", "All substituents axial", "Alternating axial and equatorial", "No preferred conformation"],
+    "answer": "All substituents equatorial"
+  },
+  {
+    "question": "Which of the following compounds exhibits both keto-enol tautomerism and aromaticity?",
+    "options": ["Phenol", "Cyclohexanone", "2-Hydroxycyclopent-2-enone", "Benzaldehyde"],
+    "answer": "2-Hydroxycyclopent-2-enone"
+  },
+  {
+    "question": "What is the product when benzene diazonium chloride reacts with H₃PO₂?",
+    "options": ["Benzene", "Phenol", "Chlorobenzene", "Aniline"],
+    "answer": "Benzene"
+  },
+  {
+    "question": "Which reagent is used to distinguish between aldehydes and ketones?",
+    "options": ["2,4-Dinitrophenylhydrazine", "Tollen’s reagent", "Br₂/CCl₄", "NaBH₄"],
+    "answer": "Tollen’s reagent"
+  },
+  {
+    "question": "Which of the following will give a racemic mixture on reaction with HBr?",
+    "options": ["Ethene", "1-Methylcyclohexene", "1-Butene", "Styrene"],
+    "answer": "1-Methylcyclohexene"
+  },
+  {
+    "question": "Which of the following is the major product in the reaction of acetylene with NaNH₂ followed by methyl iodide?",
+    "options": ["Propyne", "1-Butyne", "2-Butyne", "2-Methyl-1-propyne"],
+    "answer": "1-Butyne"
+  },
+  {
+    "question": "In the electrophilic substitution of nitrobenzene, which position is preferred for substitution?",
+    "options": ["Ortho", "Meta", "Para", "No substitution"],
+    "answer": "Meta"
+  },
+  {
+    "question": "Which of the following reactions proceeds via a free radical mechanism?",
+    "options": ["Halogenation of alkanes", "Friedel-Crafts alkylation", "Nitration of benzene", "Electrophilic addition of HX to alkene"],
+    "answer": "Halogenation of alkanes"
+  },
+  {
+    "question": "Which of the following compounds exhibits optical isomerism but has no chiral center?",
+    "options": ["Tartaric acid (meso form)", "2-Butanol", "1,2-Dibromoethane", "Allene"],
+    "answer": "Allene"
+  },
+  {
+    "question": "Which compound is formed by the ozonolysis of cyclohexene?",
+    "options": ["Adipaldehyde", "Adipic acid", "Cyclohexanone", "Hexanal"],
+    "answer": "Adipaldehyde"
+  },
+  {
+    "question": "What is the major product when benzene reacts with chloromethyl methyl ether in the presence of AlCl₃?",
+    "options": ["Benzyl methyl ether", "Toluene", "Benzyl chloride", "Methyl benzene"],
+    "answer": "Benzyl methyl ether"
+  },
+  {
+    "question": "Which of the following compounds does not undergo aldol condensation?",
+    "options": ["Benzaldehyde", "Acetone", "Formaldehyde", "Acetic acid"],
+    "answer": "Acetic acid"
+  },
+  {
+    "question": "Which of the following organometallic reagents reacts with carbonyl compounds to give alcohols after hydrolysis?",
+    "options": ["Grignard reagent", "Gilman reagent", "Organolithium reagent", "All of these"],
+    "answer": "All of these"
+  },
+  {
+    "question": "Which compound exhibits keto-enol tautomerism most prominently?",
+    "options": ["Acetone", "Benzaldehyde", "Acetic acid", "Benzene"],
+    "answer": "Acetone"
+  },
+  {
+    "question": "Which of the following undergoes SN1 reaction fastest?",
+    "options": ["(CH₃)₃CCl", "CH₃Cl", "C₂H₅Cl", "(CH₃)₂CHCl"],
+    "answer": "(CH₃)₃CCl"
+  },
+  {
+    "question": "Which of the following is a chiral molecule?",
+    "options": ["2-Butene", "1,2-Dichloropropane", "3-Methylhexane", "2-Bromobutane"],
+    "answer": "2-Bromobutane"
+  },
+  {
+    "question": "Which of the following has the highest acidity?",
+    "options": ["Phenol", "p-Nitrophenol", "m-Nitrophenol", "o-Nitrophenol"],
+    "answer": "p-Nitrophenol"
+  },
+  {
+    "question": "Which of the following compounds reacts with phenylmagnesium bromide to give an alcohol after hydrolysis?",
+    "options": ["Acetophenone", "Benzaldehyde", "Formaldehyde", "All of these"],
+    "answer": "All of these"
+  },
+  {
+    "question": "Which of the following is a good nucleophile in aprotic solvents?",
+    "options": ["F⁻", "Cl⁻", "Br⁻", "I⁻"],
+    "answer": "F⁻"
+  },
+  {
+    "question": "Which compound is formed by the reaction of benzene with acetyl chloride and AlCl₃ followed by Clemmensen reduction?",
+    "options": ["Ethylbenzene", "Acetophenone", "Toluene", "Benzyl alcohol"],
+    "answer": "Ethylbenzene"
+  },
+  {
+    "question": "Which of the following is the most reactive towards nucleophilic substitution in SN2 mechanism?",
+    "options": ["Methyl bromide", "Tert-butyl bromide", "Benzyl bromide", "Vinyl bromide"],
+    "answer": "Methyl bromide"
+  },
+  {
+    "question": "What is the major product formed when 1-butyne reacts with excess HBr?",
+    "options": ["1,1-Dibromobutane", "2,2-Dibromobutane", "1-Bromobutene", "2-Bromobutene"],
+    "answer": "2,2-Dibromobutane"
+  },
+  {
+    "question": "Which of the following compounds does not show aromaticity?",
+    "options": ["Pyrrole", "Furan", "Cyclobutadiene", "Thiophene"],
+    "answer": "Cyclobutadiene"
+  },
+  {
+    "question": "Which reagent can be used to convert an alkene into a vicinal dihalide?",
+    "options": ["Br₂ in CCl₄", "HBr", "H₂ and Pd", "KMnO₄"],
+    "answer": "Br₂ in CCl₄"
+  },
+    {
       "question": "Assertion (A): Grignard reagents react with CO2 to form carboxylic acids. Reason (R): CO2 acts as a nucleophile.",
       "options": [
         "Both A and R are true and R is the correct explanation.",
